@@ -7,6 +7,10 @@ public class Car extends Vehicle {
         this.convertible = convertible;
     }
 
+    public Car() {
+
+    }
+
     public boolean isConvertible() {
         return convertible;
     }
