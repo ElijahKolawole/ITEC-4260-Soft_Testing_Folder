@@ -1,7 +1,4 @@
-import java.io.PrintStream;
 import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class Inventory {

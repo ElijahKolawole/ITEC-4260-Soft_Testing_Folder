@@ -2,7 +2,6 @@ import org.apache.commons.io.IOUtils;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
-import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -12,8 +11,7 @@ public class Dealership {
     private String model;
 
 
-    public Dealership(Inventory vehicleInventory) {
-        this.vehicleInventory = vehicleInventory;
+    public Dealership() {
 
     }
 
@@ -92,11 +90,11 @@ public class Dealership {
         String cheapest = vehicleInventory.findCheapestVehicle().getMake() + " " + vehicleInventory.findCheapestVehicle().getModel();
         String mostExpensive = vehicleInventory.findMostExpensiveVehicle().getMake() + " " + vehicleInventory.findMostExpensiveVehicle().getModel();
 
-        System.out.println("Cheapest: " + cheapest);
-        System.out.println("Most-Expensive: " + mostExpensive);
-        NumberFormat nFormat = NumberFormat.getCurrencyInstance();
+        //System.out.println("Cheapest: " + cheapest);
+        //System.out.println("Most-Expensive: " + mostExpensive);
+        //NumberFormat nFormat = NumberFormat.getCurrencyInstance();
 
-        System.out.println("Average: " + nFormat.format(vehicleInventory.getAveragePriceOfAllVehicles()));
+       // System.out.println("Average: " + nFormat.format(vehicleInventory.getAveragePriceOfAllVehicles()));
 
 
     }

@@ -1,6 +1,6 @@
 import java.text.NumberFormat;
 
-public class Vehicle implements Comparable<Vehicle> {
+public class   Vehicle implements Comparable<Vehicle> {
     private String make;
     private String model;
     private boolean fourWheelDrive;
