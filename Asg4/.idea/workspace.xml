@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="354eab21-5b92-49ed-82b7-9d9c2dcb1af3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tst/DealershipTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tst/DownloadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Asg3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Asg3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Asg3/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Asg3/src/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Asg3/src/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Asg3/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dealership.java" afterDir="false" />
+    <list default="true" id="354eab21-5b92-49ed-82b7-9d9c2dcb1af3" name="Default Changelist" comment="Got things working , but I am lloking for a wa to clean up the code to make it cleaner">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Asg4/DealershipTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Asg4/DealershipTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tst/DealershipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tst/DealershipTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +47,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Dealership.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="119">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3490#3491#0" expanded="true" />
                 <element signature="e#3539#3540#0" expanded="true" />
+                <element signature="e#3585#3586#0" expanded="true" />
                 <element signature="e#3624#3625#0" expanded="true" />
               </folding>
             </state>
@@ -70,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
+            <state relative-caret-position="935">
               <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
             </state>
           </provider>
@@ -79,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="323">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -88,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Inventory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+            <state relative-caret-position="986">
+              <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -106,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tst/DealershipTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+            <state relative-caret-position="255">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#277#278#0" expanded="true" />
@@ -129,7 +122,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/notification/RunNotifier.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
+            <state relative-caret-position="714">
               <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
@@ -155,6 +148,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -180,31 +176,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Asg4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Asg4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Asg4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Asg4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Asg4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Asg4" type="462c0819:PsiDirectoryNode" />
-              <item name="tst" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -213,7 +185,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548350865980" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548443530480" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -317,7 +289,8 @@
       <workItem from="1548296464563" duration="1022000" />
       <workItem from="1548297572428" duration="479000" />
       <workItem from="1548306767430" duration="4378000" />
-      <workItem from="1548336550814" duration="13383000" />
+      <workItem from="1548336550814" duration="13758000" />
+      <workItem from="1548442377404" duration="585000" />
     </task>
     <task id="LOCAL-00001" summary="Got things working , but I am lloking for a wa to clean up the code to make it cleaner">
       <created>1548347836207</created>
@@ -326,28 +299,17 @@
       <option name="project" value="LOCAL" />
       <updated>1548347836207</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="All test passed, but I need to fix the SSL keystore in java scecurity folder of the jdk. This SSLHAndhsakeException is stopping me from reading the files directly from the web.">
+      <created>1548350971954</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548350971954</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DealershipTest_testGetAveragePriceOfAllVehicles - 2019.01.24 at 12h 07m 27s.xml">
-      <configuration name="DealershipTest.testGetAveragePriceOfAllVehicles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DealershipTest_testGetAveragePriceOfAllVehicles - 2019.01.24 at 12h 16m 20s.xml">
-      <configuration name="DealershipTest.testGetAveragePriceOfAllVehicles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DealershipTest_testGetAveragePriceOfAllVehicles - 2019.01.24 at 12h 16m 37s.xml">
-      <configuration name="DealershipTest.testGetAveragePriceOfAllVehicles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DealershipTest - 2019.01.24 at 12h 16m 50s.xml">
-      <configuration name="DealershipTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DealershipTest - 2019.01.24 at 12h 17m 51s.xml">
-      <configuration name="DealershipTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DealershipTest - 2019.01.24 at 12h 19m 37s.xml">
-      <configuration name="DealershipTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DealershipTest - 2019.01.24 at 12h 21m 50s.xml">
       <configuration name="DealershipTest" configurationId="JUnit" />
     </history-entry>
@@ -360,9 +322,27 @@
     <history-entry file="DealershipTest - 2019.01.24 at 12h 25m 11s.xml">
       <configuration name="DealershipTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DealershipTest - 2019.01.25 at 13h 53m 59s.xml">
+      <configuration name="DealershipTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealershipTest - 2019.01.25 at 13h 55m 34s.xml">
+      <configuration name="DealershipTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealershipTest - 2019.01.25 at 13h 56m 15s.xml">
+      <configuration name="DealershipTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealershipTest - 2019.01.25 at 13h 57m 02s.xml">
+      <configuration name="DealershipTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealershipTest - 2019.01.25 at 13h 58m 35s.xml">
+      <configuration name="DealershipTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DealershipTest - 2019.01.25 at 14h 12m 14s.xml">
+      <configuration name="DealershipTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21567000" />
+    <option name="totallyTimeSpent" value="22527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1087" extended-state="0" />
@@ -382,7 +362,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32914045" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32914045" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32914045" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50765866" side_tool="true" weight="0.3322851" />
@@ -457,10 +437,25 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Got things working , but I am lloking for a wa to clean up the code to make it cleaner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got things working , but I am lloking for a wa to clean up the code to make it cleaner" />
+    <MESSAGE value="All test passed, but I need to fix the SSL keystore in java scecurity folder of the jdk. This SSLHAndhsakeException is stopping me from reading the files directly from the web." />
+    <option name="LAST_COMMIT_MESSAGE" value="All test passed, but I need to fix the SSL keystore in java scecurity folder of the jdk. This SSLHAndhsakeException is stopping me from reading the files directly from the web." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MainTest.java" />
@@ -478,6 +473,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tst/DownloadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dealership.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3490#3491#0" expanded="true" />
+            <element signature="e#3539#3540#0" expanded="true" />
+            <element signature="e#3585#3586#0" expanded="true" />
+            <element signature="e#3624#3625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -487,7 +527,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/notification/RunNotifier.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
+        <state relative-caret-position="714">
           <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
@@ -501,58 +541,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tst/DownloadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dealership.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3539#3540#0" expanded="true" />
-            <element signature="e#3624#3625#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tst/DealershipTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+        <state relative-caret-position="255">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#277#278#0" expanded="true" />
