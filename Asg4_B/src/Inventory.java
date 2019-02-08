@@ -1,11 +1,14 @@
 import java.text.NumberFormat;
+import java.util.ArrayList;
 import java.util.List;
 
 @SuppressWarnings("unchecked")
 public class Inventory {
     private List<Vehicle> vehicleList;
 
-
+    public Inventory(){
+        vehicleList = new ArrayList<Vehicle>();
+    }
     public Inventory(List vehicleList) {
 
         this.vehicleList = vehicleList;

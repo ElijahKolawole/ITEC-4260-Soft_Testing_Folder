@@ -13,12 +13,14 @@ public class Dealership {
 
 
     public Dealership() {
-
+      //  vehicleInventory = new Inventory();
     }
 
     public void loadInventoryFromWeb() throws Exception {
         String model;
-        String url = "https://goo.gl/phaEbQ";
+       // String url_file = "inventory - luxury.csv";
+
+        String url_webpage = "https://goo.gl/phaEbQ";
         List<Vehicle> vehicleList = new ArrayList<>();
         this.vehicleInventory = new Inventory(vehicleList);
         Vehicle vehicle;
@@ -26,18 +28,20 @@ public class Dealership {
         int currentLine = 0;
         List<List<String>> list2 = null;
 
+        // InputStream in = new FileInputStream(url3);
+        InputStream in = new URL(url_webpage).openStream();
 
-        InputStream in = new URL(url).openStream();
 
         String content = IOUtils.toString(in, "UTF-8");
         String[] lines = content.split("\n");
         for (String line : lines) {
             line = line.trim().substring(1, line.length() - 1);
             line = line.replaceAll("\"", "");
+            //System.out.println(line);
 
             String[] words = line.split(","); // words in each line
             contentAsStrings = new ArrayList<>(Arrays.asList(words));
-            currentLine++;//just incase I need to quicklty chcek what is going on at each lineo
+            //currentLine++;//just incase I need to quicklty chcek what is going on at each lineo
 
             String vehicleName = contentAsStrings.get(0);
             String[] vehicleMake_Model = vehicleName.split(" ");

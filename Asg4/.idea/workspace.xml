@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="354eab21-5b92-49ed-82b7-9d9c2dcb1af3" name="Default Changelist" comment="Got things working , but I am lloking for a wa to clean up the code to make it cleaner">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Asg4/DealershipTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Asg4/DealershipTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tst/DealershipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tst/DealershipTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Asg4_B/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Asg4_B/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Asg4_B/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Asg4_B/out/production/Asg4_B/Dealership.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Asg4_B/out/production/Asg4_B/Dealership.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Asg4_B/out/production/Asg4_B/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Asg4_B/out/production/Asg4_B/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Asg4_B/src/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Asg4_B/src/Dealership.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Asg4_B/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Asg4_B/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tst/DealershipTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="204">
+              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#277#278#0" expanded="true" />
@@ -164,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
@@ -176,7 +179,11 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -185,7 +192,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548443530480" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548559262866" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -214,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DealershipTest">
+  <component name="RunManager" selected="JUnit.DealershipTest.testFindCheapestVehicle">
     <configuration name="DealershipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Asg4" />
       <option name="PACKAGE_NAME" value="" />
@@ -266,9 +273,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DealershipTest.testFindCheapestVehicle" />
         <item itemvalue="JUnit.DealershipTest" />
         <item itemvalue="JUnit.DealershipTest.testGetAveragePriceOfAllVehicles" />
-        <item itemvalue="JUnit.DealershipTest.testFindCheapestVehicle" />
         <item itemvalue="JUnit.DealershipTest.testFindMostExpesiveVehicle" />
         <item itemvalue="JUnit.DealershipTest.testFindChepastVehicle" />
       </list>
@@ -291,6 +298,7 @@
       <workItem from="1548306767430" duration="4378000" />
       <workItem from="1548336550814" duration="13758000" />
       <workItem from="1548442377404" duration="585000" />
+      <workItem from="1548559232908" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="Got things working , but I am lloking for a wa to clean up the code to make it cleaner">
       <created>1548347836207</created>
@@ -310,9 +318,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DealershipTest - 2019.01.24 at 12h 21m 50s.xml">
-      <configuration name="DealershipTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DealershipTest - 2019.01.24 at 12h 22m 26s.xml">
       <configuration name="DealershipTest" configurationId="JUnit" />
     </history-entry>
@@ -340,14 +345,18 @@
     <history-entry file="DealershipTest - 2019.01.25 at 14h 12m 14s.xml">
       <configuration name="DealershipTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DealershipTest_testFindCheapestVehicle - 2019.01.26 at 22h 21m 05s.xml">
+      <configuration name="DealershipTest.testFindCheapestVehicle" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22527000" />
+    <option name="totallyTimeSpent" value="22568000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1087" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24726477" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1076759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -356,7 +365,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49234137" weight="0.3322851" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49234137" weight="0.33125648" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -504,6 +513,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Inventory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -539,17 +555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tst/DealershipTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="204">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#277#278#0" expanded="true" />
