@@ -25,6 +25,23 @@ public class Main {
         System.out.println("asg1.isPassingClass(false, true, true): " + asg1.isPassingClass(false, true, true));
         System.out.println("asg1.getLetter('d'): " + asg1.getLetter('d'));
         System.out.println("asg1.changeNums(10): " + asg1.changeNums(10));
+        System.out.println("asg1.stringLength(\"string\"): " + asg1.stringLength("string"));
+        System.out.println("asg1.areTwoStringsEqual(\"do\", \"do\"): " + asg1.areTwoStringsEqual("do", "do"));
+        System.out.println("asg1.asg1.getCircumference(1.0): " + asg1.getCircumference(1.0));
+        System.out.println("asg1.asg1.addPointFive(5): " + asg1.addPointFive(5) );
+        System.out.println("asg1.getToGraduate('A', 'B'): " + asg1.getToGraduate('A', 'B'));
+        System.out.println("asg1.isEvenlyDivisibleByFourtyTwo(23432): " + asg1.isEvenlyDivisibleByFourtyTwo(23432) );
+        System.out.println("asg1.getKarmaLevel(-938): " + asg1.getKarmaLevel(-938));
+        System.out.println("changeToShouting(\"hello world\"): " + asg1.changeToShouting("hello world"));
+        System.out.println("asg1.getThirdChar( \"college\"): " + asg1.getThirdChar( "college"));
+        System.out.println("asg1.asg1.getLastThreeCharString(\"vitamin\"): " + asg1.getLastThreeCharString("vitamin"));
+        System.out.println("asg1.getFirstTwoCharConcat(\"sparta\", \"300\") : " + asg1.getFirstTwoCharConcat("sparta", "300") );
+        System.out.println("asg1.getMiddleOfString(\"parkbom\"): " + asg1.getMiddleOfString("parkbom"));
+        ///
+        System.out.println("asg1.oddOrEven(\"park\"): " + asg1.oddOrEven("parks"));
+
+        System.out.println("asg1.getShoutingString(\"Ade\", 5); " + asg1.getShoutingString("Ade", 10));
+
 
 
     }
